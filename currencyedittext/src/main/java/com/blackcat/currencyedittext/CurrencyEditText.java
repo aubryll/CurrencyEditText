@@ -11,8 +11,7 @@ import java.util.Currency;
 import java.util.Locale;
 
 @SuppressWarnings("unused")
-public class CurrencyEditText extends EditText {
-
+public class CurrencyEditText extends android.support.v7.widget.AppCompatEditText {
     private Locale currentLocale;
 
     private Locale defaultLocale = Locale.US;
